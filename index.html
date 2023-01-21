@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login - Jumpy </title>
+</head>
+<body>
+    <header>
+        <img id="logo-dnc" src="image/logo_dnc.png" alt="logo-dnc" width="100px">
+    </header>
+    <section>
+        <div>
+            <img id="logo-jumpy" src="image/logo_jumpy_preto.png" alt="logo_jumpy" width="200px">
+            <p id="text"><strong> Bem vindo ao Jumpy!</strong></p>
+        </div>
+
+        <div>
+            <form id="form">
+
+                <fieldset>
+                    <label for="" class="label">Nome Completo:</label>
+                    <input class="input requered" type="text" placeholder="Nome completo">
+                    <p class="erro"></p>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="" class="label">Email:</label>
+                    <input class="input requered" type="email" placeholder="Email@email.com">
+                    <p class="erro"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="" class="label">Telefone:</label>
+                    <input class="input requered" type="number" placeholder="(00) 00000-00">
+                    <p class="erro"></p>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="" class="label">CPF:</label>
+                    <input class="input requered" type="number" placeholder="000000000-00">
+                    <p class="erro"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="" class="label">Senha:</label>
+                    <input class="input requered" type="password" placeholder="*************">
+                    <p class="erro"></p>
+                </fieldset>
+
+                <fieldset>
+                    <button type="submit" id="btn">Cadastrar</button>
+                <p id="validAll"></p>
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:  #1E1E1E;
+    font-family:'Raleway', sans-serif;
+    color: white;
+}
+
+#logo-dnc{
+    padding: 20px;
+}
+
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #616161;
+    width: 340px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #0C70F2;
+    border-radius: 5px;
+    border: #0C70F2;
+    width: 340px;
+    height: 37px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+fieldset p{
+    text-align: right;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+}
+
+fieldset label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+#validAll {
+    text-align: left;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+}
